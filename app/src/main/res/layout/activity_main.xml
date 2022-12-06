@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#8BC34A"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginLeft="100px"
+            android:layout_marginRight="100px"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400px"
+            android:text="Проверь, знаешь ли ты основные правила ПДД?"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="300px"
+            android:onClick="buttonClicked5"
+            android:layout_marginRight="200px"
+            android:backgroundTint="#FFFFFF"
+            android:text="Начать"
+            android:textColor="#8BC34A" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
